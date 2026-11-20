@@ -1,0 +1,14 @@
+$kind: http-request
+name: ""
+url: http://127.0.0.1:8000/api/route-plan/
+method: POST
+body:
+  type: json
+  content: "{\r
+
+    \  \"start\": \"810 E St, Williams, CA 95987\",\r
+
+    \  \"finish\": \"1095 Duane St, Astoria, OR 97103\"\r
+
+    }"
+order: 1000
