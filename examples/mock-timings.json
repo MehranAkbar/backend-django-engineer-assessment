@@ -1,0 +1,60 @@
+{
+  "mode": "MOCKED routing, boundary and stations. Not verified real-world routes.",
+  "python": "3.11.9",
+  "django": "4.2.1",
+  "platform": "Windows-10-10.0.26300-SP0",
+  "routes": {
+    "mock-short": {
+      "request": {
+        "start": {
+          "latitude": 40,
+          "longitude": -110
+        },
+        "finish": {
+          "latitude": 40,
+          "longitude": -108
+        }
+      },
+      "observations": [
+        {
+          "cache": "cold",
+          "seconds": 1.954031,
+          "upstream_calls": 1,
+          "fuel_stops": 0
+        },
+        {
+          "cache": "warm",
+          "seconds": 0.001439,
+          "upstream_calls": 0,
+          "fuel_stops": 0
+        }
+      ]
+    },
+    "mock-multi-stop": {
+      "request": {
+        "start": {
+          "latitude": 40,
+          "longitude": -110
+        },
+        "finish": {
+          "latitude": 40,
+          "longitude": -96
+        }
+      },
+      "observations": [
+        {
+          "cache": "cold",
+          "seconds": 0.050522,
+          "upstream_calls": 1,
+          "fuel_stops": 3
+        },
+        {
+          "cache": "warm",
+          "seconds": 0.007987,
+          "upstream_calls": 0,
+          "fuel_stops": 3
+        }
+      ]
+    }
+  }
+}

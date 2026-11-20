@@ -1,0 +1,78 @@
+[
+  {
+    "payload": {
+      "start": "1791 Maggio Rd, Calexico, CA 92231",
+      "finish": "550 Wake Ave, El Centro, CA 92243"
+    },
+    "status": 200,
+    "error": null,
+    "miles": 16.738,
+    "spend": "0.00",
+    "stops": []
+  },
+  {
+    "payload": {
+      "start": "4196 Santiam Hwy SE, Albany, OR 97322",
+      "finish": "10210 N Vancouver Way, Portland, OR 97217"
+    },
+    "status": 200,
+    "error": null,
+    "miles": 75.491,
+    "spend": "0.00",
+    "stops": []
+  },
+  {
+    "payload": {
+      "start": "1791 Maggio Rd, Calexico, CA 92231",
+      "finish": "10210 N Vancouver Way, Portland, OR 97217"
+    },
+    "status": 422,
+    "error": {
+      "code": "no_feasible_plan",
+      "message": "Fuel gap exceeds the 500-mile range including estimated detours."
+    },
+    "miles": null,
+    "spend": null,
+    "stops": []
+  },
+  {
+    "payload": {
+      "start": "790 NW Frontage Rd, Troutdale, OR 97060",
+      "finish": "1791 Maggio Rd, Calexico, CA 92231"
+    },
+    "status": 422,
+    "error": {
+      "code": "no_feasible_plan",
+      "message": "Fuel gap exceeds the 500-mile range including estimated detours."
+    },
+    "miles": null,
+    "spend": null,
+    "stops": []
+  },
+  {
+    "payload": {
+      "start": "810 E St, Williams, CA 95987",
+      "finish": "1095 Duane St, Astoria, OR 97103"
+    },
+    "status": 200,
+    "error": null,
+    "miles": 609.742,
+    "spend": "34.20",
+    "stops": [
+      "5477"
+    ]
+  },
+  {
+    "payload": {
+      "start": "790 NW Frontage Rd, Troutdale, OR 97060",
+      "finish": "810 E St, Williams, CA 95987"
+    },
+    "status": 200,
+    "error": null,
+    "miles": 536.845,
+    "spend": "11.62",
+    "stops": [
+      "5477"
+    ]
+  }
+]

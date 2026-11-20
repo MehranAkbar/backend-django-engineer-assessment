@@ -23,3 +23,7 @@ htmlcov/
 .vscode/
 .DS_Store
 Thumbs.db
+.tools/
+.test-venv/
+data/us_boundary.geojson
+reports/*.unresolved.csv

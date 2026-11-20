@@ -1,0 +1,129 @@
+{
+  "upstream_calls": 2,
+  "results": [
+    {
+      "opis_id": "10085",
+      "status": "unresolved",
+      "source": "Geoapify unmatched or ambiguous; manual verification required",
+      "candidates": [
+        "el Centro Center, El Centro, CA 92243, United States of America",
+        "El Centro Outpatient Center, West Main Street, El Centro, CA 92243, United States of America",
+        "El Centro, CA, United States of America",
+        "el Centro Center, El Centro, CA, United States of America",
+        "El Centro Community Center, 375 South 1st Street, El Centro, CA 92243, United States of America"
+      ],
+      "candidate_details": [
+        {
+          "formatted": "el Centro Center, El Centro, CA 92243, United States of America",
+          "result_type": "amenity",
+          "category": null,
+          "name": null,
+          "city": "El Centro",
+          "state_code": "CA",
+          "street": "el Centro Center",
+          "housenumber": null,
+          "rank": {
+            "popularity": 1.7508007165310155,
+            "confidence": 1,
+            "confidence_city_level": 1,
+            "match_type": "full_match"
+          },
+          "coordinates": [
+            -115.571356,
+            32.802527
+          ],
+          "passed_match_rules": false
+        },
+        {
+          "formatted": "El Centro Outpatient Center, West Main Street, El Centro, CA 92243, United States of America",
+          "result_type": "amenity",
+          "category": "healthcare.hospital",
+          "name": "El Centro Outpatient Center",
+          "city": "El Centro",
+          "state_code": "CA",
+          "street": "West Main Street",
+          "housenumber": null,
+          "rank": {
+            "importance": 5.7708857862165524e-05,
+            "popularity": 1.7641681057652077,
+            "confidence": 1,
+            "confidence_city_level": 1,
+            "match_type": "full_match"
+          },
+          "coordinates": [
+            -115.5520884,
+            32.7925726
+          ],
+          "passed_match_rules": false
+        },
+        {
+          "formatted": "El Centro, CA, United States of America",
+          "result_type": "city",
+          "category": "administrative",
+          "name": "El Centro",
+          "city": "El Centro",
+          "state_code": "CA",
+          "street": null,
+          "housenumber": null,
+          "rank": {
+            "importance": 0.5143876208644785,
+            "popularity": 1.8051411364156427,
+            "confidence": 0.25,
+            "confidence_city_level": 1,
+            "match_type": "match_by_city_or_disrict"
+          },
+          "coordinates": [
+            -115.563051,
+            32.792
+          ],
+          "passed_match_rules": false
+        },
+        {
+          "formatted": "el Centro Center, El Centro, CA, United States of America",
+          "result_type": "suburb",
+          "category": null,
+          "name": "el Centro Center",
+          "city": "El Centro",
+          "state_code": "CA",
+          "street": null,
+          "housenumber": null,
+          "rank": {
+            "importance": 0.08005770885786218,
+            "confidence": 0.25,
+            "confidence_city_level": 1,
+            "match_type": "match_by_city_or_disrict"
+          },
+          "coordinates": [
+            -115.5718542,
+            32.8028685
+          ],
+          "passed_match_rules": false
+        },
+        {
+          "formatted": "El Centro Community Center, 375 South 1st Street, El Centro, CA 92243, United States of America",
+          "result_type": "amenity",
+          "category": null,
+          "name": "El Centro Community Center",
+          "city": "El Centro",
+          "state_code": "CA",
+          "street": "South 1st Street",
+          "housenumber": "375",
+          "rank": {
+            "popularity": 1.759855896489965,
+            "confidence": 0,
+            "confidence_city_level": 1,
+            "match_type": "full_match"
+          },
+          "coordinates": [
+            -115.543648,
+            32.790243
+          ],
+          "passed_match_rules": false
+        }
+      ]
+    }
+  ],
+  "error": "geoapify_unavailable",
+  "matched_total": 55,
+  "unresolved_total": 6571
+}

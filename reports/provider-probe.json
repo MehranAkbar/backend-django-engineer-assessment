@@ -1,0 +1,7 @@
+{
+  "success": false,
+  "error": "provider_timeout",
+  "message": "Routing provider timed out; retry later.",
+  "upstream_calls": 1,
+  "seconds": 5.040712
+}

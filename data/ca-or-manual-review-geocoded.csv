@@ -1,0 +1,14 @@
+opis_id,station_name,original_address,city,state,verified_street_address,latitude,longitude,source
+66475,SPEEDWAY #4346,SR-7,Calexico,CA,"1791 Maggio Rd, Calexico, CA 92231",32.6857169311879,-115.38009137506717,Manual verification (user-provided); matches Mapbox mapbox_id=dXJuOm1ieHBvaTozOWJmMGFkZi02ZmY5LTQ0OWUtODU4OS05MjMwOWUxYzJhZjE
+73078,Shelee's Travel Center,"I-10, Exit 146",Coachella,CA,"46355 Dillon Rd, Coachella, CA 92236",33.71116879,-116.17917797,Mapbox Search Box POI mapbox_id=dXJuOm1ieHBvaTpjYTMwODVjYy0yOTEzLTQyMmYtODUxYy1hZGFkZWE2OGRlZTQ
+10085,EL CENTRO TRAVEL CENTER,"I-8, EXIT 115 & SR-86",El Centro,CA,"550 Wake Ave, El Centro, CA 92243",32.77205633695268,-115.55475871763954,Manual verification (user-provided)
+71543,THE SOCO GROUP #4,SR-111,El Centro,CA,"815 K St, Brawley, CA 92227",32.97801948680793,-115.53126785459175,Manual verification (user-provided)
+636,UNION 76,"I-5, EXIT 233 E",Albany,OR,"4196 Santiam Hwy SE, Albany, OR 97322",44.63376709167581,-123.0523074231324,Manual verification (user-provided)
+73117,MAVERIK #722,"I-29, EXIT 304",Baker City,OR,"1520 Campbell St, Baker City, OR 97814",44.78228097,-117.82260108,Mapbox Search Box POI mapbox_id=dXJuOm1ieHBvaToxNjI2ZTc2NS02MzFmLTQ1Y2QtODNjZC0wYmQzZDMwYmY5NTI
+6480,FLYING J #934,"I-84, EXIT 265",La Grande,OR,"63276 OR-203, La Grande, OR 97850",45.29741232,-118.04386308,Mapbox Search Box POI mapbox_id=dXJuOm1ieHBvaTphNDZjYTVkNC05YTIyLTRhMTktYjI3Ny1iNmZhYjgxMGI4ZGU
+20054,Jacksons Food Stores,"I-84, EXIT 261",La Grande,OR,"2706 Island Ave, La Grande, OR 97850",45.33314954,-118.06890232,Mapbox Search Box POI mapbox_id=dXJuOm1ieHBvaTo3OTJiYmYzZC00ZmI4LTQ1ZTAtOGQ1MS05NjU4YTQxOTZlY2Q
+71113,PLATEU TRAVEL PLAZA,"I-95, EXIT 39A & US-1",Madras,OR,"215 NW Cherry Ln, Madras, OR 97741",44.66421881,-121.13830297,Mapbox Search Box POI mapbox_id=dXJuOm1ieHBvaTpiNWM4MzY2OC03YjcwLTRmMTktOGVkYy04MmVjNTFmOTZjOWQ
+63574,PILOT TRAVEL CENTERS #232,"I-84, EXIT 376A",Ontario,OR,,,,
+66550,CIRCLE K #2709663,"I-82, EXIT 730",Umatilla,OR,"1800 6th St, Umatilla, OR 97882",45.91798524,-119.32674884,Mapbox Search Box POI mapbox_id=dXJuOm1ieHBvaTpmOTAyYTM0MS00ODljLTQwMDYtYTZhMy0wMjM2MDQ1NzgwYjk
+70667,EZ TRIP #1226,"I-84, EXIT 104 & US-97",Wasco,OR,"91558 Biggs Rufus Hwy, Wasco, OR 97065",45.66978364,-120.83199651,Mapbox Search Box POI mapbox_id=dXJuOm1ieHBvaTo5OWQ5MDU4Yy03YjFjLTQ0NDAtODk0ZS01Nzc5ZDMxNzNjNDY
+66041,PILOT TRAVEL CENTERS #195,"I-84, EXIT 104 & US-97",Wasco,OR,"91485 Biggs Rufus Hwy, Wasco, OR 97065",45.66936023,-120.83497548,Mapbox Search Box POI mapbox_id=dXJuOm1ieHBvaTo4NTI4ZDczMy0zMDEyLTRiNWYtYjU5NS0yNzllYjg5ZDE5OWU

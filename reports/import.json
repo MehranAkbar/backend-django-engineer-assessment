@@ -1,0 +1,2524 @@
+{
+  "input_sha256": "c704371f141ded9c54df6c32d488a0ba2ceb589f88c936c967daa5330e0cd241",
+  "input_rows": 8151,
+  "unique_stations": 6626,
+  "duplicates": 905,
+  "matched": 2,
+  "unresolved": 6624,
+  "rejected": [
+    {
+      "line": 143,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 144,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 145,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 146,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 147,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 148,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 152,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 153,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 154,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 155,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 156,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 157,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 1482,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 1483,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 1484,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 1485,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 1486,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 1487,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 1624,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 1625,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 1626,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 1627,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 1628,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 1629,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 2037,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 2038,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 2039,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 2041,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 2042,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 2043,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 2044,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 2045,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 2046,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 2047,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 2048,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 2049,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 2050,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 2051,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 2052,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 2053,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 2054,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 2055,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 2056,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 2057,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 2058,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 2059,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 2061,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 2062,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 2063,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 2064,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 2065,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 2066,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 2600,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 2601,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 2602,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 2603,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 2604,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 2605,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 2666,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 2667,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 2668,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 2669,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 2670,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 2671,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 2672,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 2673,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 2674,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 2675,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 2676,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 2677,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 2906,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 2907,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 2908,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 2909,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 2910,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 2911,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 2912,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 2913,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 2914,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 2915,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 2916,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 2917,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 2918,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 2919,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 2920,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 2921,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 2922,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 2923,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 2924,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 2925,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 2926,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 2930,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 2931,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 2932,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 2933,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 2934,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 2935,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 3047,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 3048,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 3049,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 3050,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 3051,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 3052,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 3053,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 3054,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 3061,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 3062,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 3063,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 3064,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 3066,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 3067,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 3068,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 3069,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 3070,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 3071,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 3177,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 3178,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 3179,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 3192,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 3193,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 3194,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 3195,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 3196,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 3197,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 3198,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 3199,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 3200,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 3201,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 3202,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 3203,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 3207,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 3208,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 3209,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 3210,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 3211,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 3212,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 3213,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 3214,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 3215,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 3216,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 3217,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 3218,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 3219,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 3220,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 3221,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 3262,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 3263,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 3264,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 3265,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 3266,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 3267,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 3337,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 3338,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 3339,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 3340,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 3341,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 3342,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 3360,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 3361,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 3362,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 3363,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 3364,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 3365,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 3550,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 3551,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 3552,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 3553,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 3554,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 3555,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 3556,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 3557,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 3558,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 3559,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 3560,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 3561,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 3562,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 3563,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 3564,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 3565,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 3570,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 3571,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 3572,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 3573,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 3574,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 3575,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 3588,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 3589,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 3590,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 3591,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 3592,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 3593,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 3656,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 3657,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 3658,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 3659,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 3660,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 3661,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 3662,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 3663,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 3664,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 3665,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 3666,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 3667,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 3675,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 3676,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 3677,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 3678,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 3679,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 3680,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 3689,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 3690,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 3691,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 3692,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 3693,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 3694,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 3698,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 3699,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 3700,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 3701,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 3702,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 3703,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 3704,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 3705,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 3706,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 3707,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 3708,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 3709,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 3710,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 3711,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 3712,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 3713,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 3714,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 3715,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 3716,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 3717,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 3718,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 3719,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 3720,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 3721,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 3722,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 3723,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 3724,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 3725,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 3726,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 3727,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 3728,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 3729,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 3730,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 3731,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 3732,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 3733,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 3734,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 3735,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 3736,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 3737,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 3738,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 3739,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 3740,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 3741,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 3742,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 3743,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 3744,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 3745,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 3746,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 3747,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 3748,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 3749,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 3750,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 3751,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 3753,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 3754,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 3755,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 3756,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 3757,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 3758,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 3759,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 3760,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 3761,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 3762,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 3763,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 3764,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 3765,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 3766,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 3767,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 3768,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 3769,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 3770,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 3776,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 3777,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 3778,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 3779,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 3780,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 3781,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 3790,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 3791,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 3792,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 3793,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 3794,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 3795,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 3796,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 3797,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 3798,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 3799,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 3800,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 3801,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 3802,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 3803,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 3804,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 3805,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 3806,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 3807,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 3808,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 3809,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 3810,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 3811,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 3812,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 3813,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 3814,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 3815,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 3816,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 3817,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 3818,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 3819,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 3820,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 3821,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 3822,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 3823,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 3824,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 3825,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 3826,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 3827,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 3828,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 3829,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 3830,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 3831,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 3832,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 3833,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 3834,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 3835,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 3836,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 3837,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 3839,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 3840,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 3841,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 3842,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 3843,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 3844,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 3855,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 3856,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 3857,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 3858,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 3859,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 3860,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 4030,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 4031,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 4032,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 4033,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 4034,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 4035,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 4036,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 4037,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 4038,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 4039,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 4040,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 4041,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 4078,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 4079,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 4080,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 4081,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 4082,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 4083,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 4131,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 4132,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 4133,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 4134,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 4135,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 4136,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 4137,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 4138,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 4139,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 4140,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 4141,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 4142,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 4143,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 4144,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 4145,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 4146,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 4147,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 4148,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 4149,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 4150,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 4151,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 4152,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 4153,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 4154,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 4155,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 4156,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 4157,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 4158,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 4159,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 4160,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 4161,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 4162,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 4163,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 4164,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 4165,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 4166,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 4167,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 4168,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 4169,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 4170,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 4171,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 4172,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 4173,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 4174,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 4175,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 4176,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 4177,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 4178,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 4179,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 4180,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 4181,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 4182,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 4183,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 4184,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 4185,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 4186,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 4187,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 4188,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 4189,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 4190,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 4191,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 4192,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 4193,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 4194,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 4195,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 4196,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 4197,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 4198,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 4199,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 4200,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 4201,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 4202,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 4203,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 4204,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 4205,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 4206,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 4207,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 4208,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 4209,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 4210,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 4211,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 4212,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 4213,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 4214,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 4215,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 4216,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 4217,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 4218,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 4219,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 4220,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 4221,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 4222,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 4223,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 4224,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 4225,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 4226,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 4227,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 4228,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 4229,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 4230,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 4231,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 4232,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 4233,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 4234,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 4235,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 4236,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 4237,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 4238,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 4239,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 4240,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 4241,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 4242,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 4243,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 4244,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 4245,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 4246,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 4247,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 4248,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 4249,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 4250,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 4251,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 4252,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 4253,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 4254,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 4255,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 4256,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 4257,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 4258,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 4259,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 4260,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 4261,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 4262,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 4263,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 4264,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 4265,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 4266,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 4267,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 4370,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 4371,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 4372,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 4373,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 4374,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 4375,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 4597,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 4598,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 4599,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 4600,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 4601,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 4602,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 4691,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 4692,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 4693,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 4694,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 4695,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 4696,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 4743,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 4744,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 4745,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 4746,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 4747,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 4748,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 4749,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 4750,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 4751,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 4752,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 4753,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 4754,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 4755,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 4756,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 4757,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 4758,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 4791,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 4792,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 4793,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 4794,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 4836,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 4837,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 4838,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 4839,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 4840,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 4841,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 4949,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 4950,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 4951,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 4952,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 4953,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 4954,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 5115,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 5116,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 5117,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 5118,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 5119,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 5120,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 5161,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 5162,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 5163,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 5172,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 5173,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 5303,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 5304,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 5305,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 5306,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 5307,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 5308,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 5341,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 5342,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 5343,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 5344,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 5345,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 5346,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 5730,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 5731,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 5732,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 5733,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 5734,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 5735,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 5833,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 5834,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 5835,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 5836,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 5837,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 5838,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 5883,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 5884,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 5885,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 5888,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 5892,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 5893,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 5894,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 5895,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 5896,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 5897,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 6961,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 6962,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 6963,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 6964,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 6965,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 6966,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 7405,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 7406,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 7407,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 7408,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 7409,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 7410,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 7971,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 7972,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 7973,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 7974,
+      "reason": "invalid required fields, US state or price"
+    },
+    {
+      "line": 7975,
+      "reason": "invalid required fields, US state or price"
+    }
+  ],
+  "geocoding_attempted": true,
+  "geocode_error": null,
+  "batch_results": [
+    {
+      "opis_id": "68618",
+      "result": "No_Match",
+      "accepted": false
+    },
+    {
+      "opis_id": "70549",
+      "result": "Match",
+      "accepted": true
+    },
+    {
+      "opis_id": "67682",
+      "result": "Match",
+      "accepted": true
+    },
+    {
+      "opis_id": "72350",
+      "result": "No_Match",
+      "accepted": false
+    },
+    {
+      "opis_id": "61559",
+      "result": "No_Match",
+      "accepted": false
+    }
+  ],
+  "batch_calls": 1,
+  "selected_for_geocoding": 5,
+  "pilot_inputs": [],
+  "method": "First valid OPIS row wins. Census street-address interpolation; highway descriptions remain unresolved unless matched in pilot or manually verified.",
+  "coverage_percent": 0.03
+}

@@ -1,0 +1,45 @@
+{
+  "route": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -110,
+              40
+            ],
+            [
+              -108,
+              40
+            ]
+          ]
+        },
+        "properties": {
+          "summary": {
+            "distance": 160934.4
+          }
+        }
+      }
+    ]
+  },
+  "route_distance_miles": 100.0,
+  "fuel_stops": [],
+  "estimated_total_distance_miles": 100.0,
+  "estimated_gallons_consumed": 10.0,
+  "total_fuel_spend_usd": "0.00",
+  "assumptions": {
+    "initial_fuel_gallons": 50,
+    "tank_capacity_gallons": 50,
+    "miles_per_gallon": 10,
+    "spend": "Purchases after departure only; initial full tank is excluded.",
+    "optimality": "Minimum purchase cost on this route, eligible stations and estimated detour model; not a globally cheapest road route.",
+    "detours": "Estimated out-and-back: 2 \u00d7 perpendicular distance \u00d7 1.5. Not road-routed; access is not verified.",
+    "corridor_miles": 1.0
+  },
+  "attribution": "\u00a9 openrouteservice.org by HeiGIT | Map data \u00a9 OpenStreetMap contributors; routing results CC BY-SA 4.0",
+  "upstream_calls": 1,
+  "verification": "MOCKED illustration; not a live verified route"
+}

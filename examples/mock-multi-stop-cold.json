@@ -1,0 +1,100 @@
+{
+  "route": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -110,
+              40
+            ],
+            [
+              -96,
+              40
+            ]
+          ]
+        },
+        "properties": {
+          "summary": {
+            "distance": 2253081.6
+          }
+        }
+      }
+    ]
+  },
+  "route_distance_miles": 1400.0,
+  "fuel_stops": [
+    {
+      "opis_id": "MOCK-0",
+      "station_name": "Synthetic station 0",
+      "address": "Illustrative address, Synthetic, KS",
+      "coordinates": {
+        "latitude": 40.0,
+        "longitude": -106.0
+      },
+      "route_mile": 400.0,
+      "route_projection": [
+        -106.0,
+        40.0
+      ],
+      "price_per_gallon": "3.00000000",
+      "gallons_purchased": 40.0,
+      "stop_cost": "120.00",
+      "estimated_round_trip_detour_miles": 0.0
+    },
+    {
+      "opis_id": "MOCK-1",
+      "station_name": "Synthetic station 1",
+      "address": "Illustrative address, Synthetic, KS",
+      "coordinates": {
+        "latitude": 40.0,
+        "longitude": -102.0
+      },
+      "route_mile": 800.0,
+      "route_projection": [
+        -102.0,
+        40.0
+      ],
+      "price_per_gallon": "4.00000000",
+      "gallons_purchased": 30.0,
+      "stop_cost": "120.00",
+      "estimated_round_trip_detour_miles": 0.0
+    },
+    {
+      "opis_id": "MOCK-2",
+      "station_name": "Synthetic station 2",
+      "address": "Illustrative address, Synthetic, KS",
+      "coordinates": {
+        "latitude": 40.0,
+        "longitude": -98.0
+      },
+      "route_mile": 1200.0,
+      "route_projection": [
+        -98.0,
+        40.0
+      ],
+      "price_per_gallon": "3.00000000",
+      "gallons_purchased": 20.0,
+      "stop_cost": "60.00",
+      "estimated_round_trip_detour_miles": 0.0
+    }
+  ],
+  "estimated_total_distance_miles": 1400.0,
+  "estimated_gallons_consumed": 140.0,
+  "total_fuel_spend_usd": "300.00",
+  "assumptions": {
+    "initial_fuel_gallons": 50,
+    "tank_capacity_gallons": 50,
+    "miles_per_gallon": 10,
+    "spend": "Purchases after departure only; initial full tank is excluded.",
+    "optimality": "Minimum purchase cost on this route, eligible stations and estimated detour model; not a globally cheapest road route.",
+    "detours": "Estimated out-and-back: 2 \u00d7 perpendicular distance \u00d7 1.5. Not road-routed; access is not verified.",
+    "corridor_miles": 1.0
+  },
+  "attribution": "\u00a9 openrouteservice.org by HeiGIT | Map data \u00a9 OpenStreetMap contributors; routing results CC BY-SA 4.0",
+  "upstream_calls": 1,
+  "verification": "MOCKED illustration; not a live verified route"
+}

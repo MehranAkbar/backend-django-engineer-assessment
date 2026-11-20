@@ -1,0 +1,7 @@
+{
+  "error": {
+    "code": "boundary_missing",
+    "message": "Run python manage.py prepare_boundary first."
+  },
+  "upstream_calls": 0
+}

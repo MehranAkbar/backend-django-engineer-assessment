@@ -1,0 +1,106 @@
+{
+  "matched_stations": 30,
+  "routes": [
+    {
+      "name": "short-chicago-milwaukee",
+      "request": {
+        "start": {
+          "latitude": 41.8781,
+          "longitude": -87.6298
+        },
+        "finish": {
+          "latitude": 43.0389,
+          "longitude": -87.9065
+        }
+      },
+      "http_status": 200,
+      "seconds": 9.264,
+      "distance_miles": 92.113,
+      "fuel_spend_usd": "0.00",
+      "stops": [],
+      "error": null
+    },
+    {
+      "name": "short-denver-colorado-springs",
+      "request": {
+        "start": {
+          "latitude": 39.7392,
+          "longitude": -104.9903
+        },
+        "finish": {
+          "latitude": 38.8339,
+          "longitude": -104.8214
+        }
+      },
+      "http_status": 200,
+      "seconds": 7.825,
+      "distance_miles": 70.254,
+      "fuel_spend_usd": "0.00",
+      "stops": [],
+      "error": null
+    },
+    {
+      "name": "long-denver-kansas-city",
+      "request": {
+        "start": {
+          "latitude": 39.7392,
+          "longitude": -104.9903
+        },
+        "finish": {
+          "latitude": 39.0997,
+          "longitude": -94.5786
+        }
+      },
+      "http_status": 200,
+      "seconds": 6.412,
+      "distance_miles": 603.68,
+      "fuel_spend_usd": "36.36",
+      "stops": [
+        "1555"
+      ],
+      "error": null
+    },
+    {
+      "name": "long-denver-omaha",
+      "request": {
+        "start": {
+          "latitude": 39.7392,
+          "longitude": -104.9903
+        },
+        "finish": {
+          "latitude": 41.2565,
+          "longitude": -95.9345
+        }
+      },
+      "http_status": 200,
+      "seconds": 8.111,
+      "distance_miles": 540.63,
+      "fuel_spend_usd": "12.70",
+      "stops": [
+        "20009"
+      ],
+      "error": null
+    },
+    {
+      "name": "long-kansas-city-colorado-springs",
+      "request": {
+        "start": {
+          "latitude": 39.0997,
+          "longitude": -94.5786
+        },
+        "finish": {
+          "latitude": 38.8339,
+          "longitude": -104.8214
+        }
+      },
+      "http_status": 200,
+      "seconds": 1.684,
+      "distance_miles": 586.962,
+      "fuel_spend_usd": "30.54",
+      "stops": [
+        "1555"
+      ],
+      "error": null
+    }
+  ]
+}

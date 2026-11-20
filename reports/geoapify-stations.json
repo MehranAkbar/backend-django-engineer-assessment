@@ -1,0 +1,101 @@
+{
+  "upstream_calls": 9,
+  "results": [
+    {
+      "opis_id": "61559",
+      "status": "unresolved",
+      "source": "Geoapify unmatched or ambiguous; manual verification required",
+      "candidates": [
+        "Somerset, PA, United States of America"
+      ]
+    },
+    {
+      "opis_id": "68618",
+      "status": "unresolved",
+      "source": "Geoapify unmatched or ambiguous; manual verification required",
+      "candidates": [
+        "206 Sth 11, Shullsburg, WI 53586, United States of America",
+        "Casey's General Store, 206 State Highway 11, Shullsburg, WI 53586, United States of America"
+      ]
+    },
+    {
+      "opis_id": "71774",
+      "status": "unresolved",
+      "source": "Geoapify unmatched or ambiguous; manual verification required",
+      "candidates": [
+        "1020 5th Street, Carrollton, IL 62016, United States of America"
+      ]
+    },
+    {
+      "opis_id": "72350",
+      "status": "unresolved",
+      "source": "Geoapify unmatched or ambiguous; manual verification required",
+      "candidates": [
+        "504 Crego Road, DeKalb, IL 60115, United States of America",
+        "504 Crego Road, DeKalb Meta Data Center, DeKalb, IL 60115, United States of America",
+        "504 Crego Road, Afton Township, IL 60115, United States of America",
+        "504 Crego Road, Clinton Township, IL 60556, United States of America"
+      ]
+    },
+    {
+      "opis_id": "10006",
+      "status": "unresolved",
+      "source": "Geoapify unmatched or ambiguous; manual verification required",
+      "candidates": [
+        "Florence, KS, United States of America",
+        "Flint Hills Trail, Council Grove, KS 66846, United States of America",
+        "Flint Hills Trail, Ivy, KS 66830, United States of America",
+        "Flint Hills Trail, Agnes City, KS 66833, United States of America",
+        "Flint Hills Trail, Waterloo, KS 66868, United States of America"
+      ]
+    },
+    {
+      "opis_id": "10007",
+      "status": "unresolved",
+      "source": "Geoapify unmatched or ambiguous; manual verification required",
+      "candidates": [
+        "Circle K, 4315 Ogeechee Road, Savannah, GA 31405, United States of America",
+        "Circle K, Ogeechee Road, Savannah, GA 31405, United States of America",
+        "Circle K, 1006 King George Boulevard, Savannah, GA 31419, United States of America",
+        "Circle K, Chatham Parkway, Savannah, GA 31405, United States of America",
+        "Circle K, 7751 Islands Expressway, Savannah, GA 31410, United States of America"
+      ]
+    },
+    {
+      "opis_id": "10015",
+      "status": "unresolved",
+      "source": "Geoapify unmatched or ambiguous; manual verification required",
+      "candidates": [
+        "Love's Travel Stop, West Trinity Lane, Nashville, TN 37207, United States of America",
+        "Nashville, TN, United States of America",
+        "Love's Travel Stop, White House, TN 37188, United States of America",
+        "Love's Travel Stop, Wilson County, TN 37122, United States of America",
+        "Love's Travel Stop, Dee Cee Court, White House, TN 37188, United States of America"
+      ]
+    },
+    {
+      "opis_id": "10020",
+      "status": "unresolved",
+      "source": "Geoapify unmatched or ambiguous; manual verification required",
+      "candidates": [
+        "Maplefields, 699 Washington Street, Fair Haven, VT 05743, United States of America",
+        "Fair Haven, VT, United States of America"
+      ]
+    },
+    {
+      "opis_id": "10028",
+      "status": "unresolved",
+      "source": "Geoapify unmatched or ambiguous; manual verification required",
+      "candidates": [
+        "Winamac, IN, United States of America",
+        "Good To Go, Indianapolis Road, Whitestown, IN 46075, United States of America",
+        "Good To Go, 6401 West 65th Street, Bedford Park, IL 60638, United States of America",
+        "Good To Go, West Wisconsin Avenue, Grand Chute, WI 54912, United States of America",
+        "Good to Go, Scuffletown Road, Five Forks, SC 29681, United States of America"
+      ]
+    }
+  ],
+  "error": null,
+  "matched_total": 30,
+  "unresolved_total": 6596
+}

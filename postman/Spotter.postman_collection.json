@@ -1,0 +1,179 @@
+{
+  "info": {
+    "name": "Spotter Fuel Route Planner",
+    "description": "Local assessment API. Live routes require imported matched stations, US boundary and ORS key. Examples marked MOCKED are illustrative only.",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "variable": [
+    {
+      "key": "base_url",
+      "value": "http://127.0.0.1:8000"
+    }
+  ],
+  "item": [
+    {
+      "name": "Short route (live verification pending)",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"start\": {\n    \"latitude\": 41.8781,\n    \"longitude\": -87.6298\n  },\n  \"finish\": {\n    \"latitude\": 43.0389,\n    \"longitude\": -87.9065\n  }\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": "{{base_url}}/api/route-plan/"
+      },
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "type": "text/javascript",
+            "exec": [
+              "const data = pm.response.json();",
+              "pm.test(\"Structured response\", () => pm.expect(data).to.have.property(\"upstream_calls\"));",
+              "if (pm.response.code === 200) {",
+              "  pm.test(\"Call budget\", () => pm.expect(data.upstream_calls).to.be.at.most(3));",
+              "  pm.test(\"Costs reconcile\", () => {",
+              "    const cents = data.fuel_stops.reduce((n,s) => n + Math.round(Number(s.stop_cost)*100), 0);",
+              "    pm.expect(Math.round(Number(data.total_fuel_spend_usd)*100)).to.eql(cents);",
+              "  });",
+              "}"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "Multi-stop route (live verification pending)",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"start\": {\n    \"latitude\": 40.7608,\n    \"longitude\": -111.891\n  },\n  \"finish\": {\n    \"latitude\": 41.8781,\n    \"longitude\": -87.6298\n  }\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": "{{base_url}}/api/route-plan/"
+      },
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "type": "text/javascript",
+            "exec": [
+              "const data = pm.response.json();",
+              "pm.test(\"Structured response\", () => pm.expect(data).to.have.property(\"upstream_calls\"));",
+              "if (pm.response.code === 200) {",
+              "  pm.test(\"Call budget\", () => pm.expect(data.upstream_calls).to.be.at.most(3));",
+              "  pm.test(\"Costs reconcile\", () => {",
+              "    const cents = data.fuel_stops.reduce((n,s) => n + Math.round(Number(s.stop_cost)*100), 0);",
+              "    pm.expect(Math.round(Number(data.total_fuel_spend_usd)*100)).to.eql(cents);",
+              "  });",
+              "}"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "Text endpoints",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"start\": \"Chicago, IL\",\n  \"finish\": \"Milwaukee, WI\"\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": "{{base_url}}/api/route-plan/"
+      },
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "type": "text/javascript",
+            "exec": [
+              "const data = pm.response.json();",
+              "pm.test(\"Structured response\", () => pm.expect(data).to.have.property(\"upstream_calls\"));",
+              "if (pm.response.code === 200) {",
+              "  pm.test(\"Call budget\", () => pm.expect(data.upstream_calls).to.be.at.most(3));",
+              "  pm.test(\"Costs reconcile\", () => {",
+              "    const cents = data.fuel_stops.reduce((n,s) => n + Math.round(Number(s.stop_cost)*100), 0);",
+              "    pm.expect(Math.round(Number(data.total_fuel_spend_usd)*100)).to.eql(cents);",
+              "  });",
+              "}"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "Outside USA (expect 400)",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"start\": {\n    \"latitude\": 51.5074,\n    \"longitude\": -0.1278\n  },\n  \"finish\": \"Chicago, IL\"\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": "{{base_url}}/api/route-plan/"
+      },
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "type": "text/javascript",
+            "exec": [
+              "const data = pm.response.json();",
+              "pm.test(\"Structured response\", () => pm.expect(data).to.have.property(\"upstream_calls\"));",
+              "if (pm.response.code === 200) {",
+              "  pm.test(\"Call budget\", () => pm.expect(data.upstream_calls).to.be.at.most(3));",
+              "  pm.test(\"Costs reconcile\", () => {",
+              "    const cents = data.fuel_stops.reduce((n,s) => n + Math.round(Number(s.stop_cost)*100), 0);",
+              "    pm.expect(Math.round(Number(data.total_fuel_spend_usd)*100)).to.eql(cents);",
+              "  });",
+              "}"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

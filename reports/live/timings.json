@@ -1,0 +1,65 @@
+{
+  "mode": "LIVE provider, imported data",
+  "python": "3.11.9",
+  "django": "4.2.1",
+  "platform": "Windows-10-10.0.26300-SP0",
+  "matched_stations": 0,
+  "routes": {
+    "short": {
+      "request": {
+        "start": {
+          "latitude": 41.8781,
+          "longitude": -87.6298
+        },
+        "finish": {
+          "latitude": 43.0389,
+          "longitude": -87.9065
+        }
+      },
+      "observations": [
+        {
+          "cache": "cold",
+          "seconds": 0.006485,
+          "status": 503,
+          "upstream_calls": 0,
+          "verified_for_demo": false
+        },
+        {
+          "cache": "warm",
+          "seconds": 0.00117,
+          "status": 503,
+          "upstream_calls": 0,
+          "verified_for_demo": false
+        }
+      ]
+    },
+    "multi-stop": {
+      "request": {
+        "start": {
+          "latitude": 40.7608,
+          "longitude": -111.891
+        },
+        "finish": {
+          "latitude": 41.8781,
+          "longitude": -87.6298
+        }
+      },
+      "observations": [
+        {
+          "cache": "cold",
+          "seconds": 0.000858,
+          "status": 503,
+          "upstream_calls": 0,
+          "verified_for_demo": false
+        },
+        {
+          "cache": "warm",
+          "seconds": 0.000958,
+          "status": 503,
+          "upstream_calls": 0,
+          "verified_for_demo": false
+        }
+      ]
+    }
+  }
+}
