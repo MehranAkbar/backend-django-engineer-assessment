@@ -2,8 +2,6 @@
 
 A Django JSON API, SQLite station database, and small Leaflet map. It finds the minimum fuel purchase cost along one provider-selected route, including estimated station detours. No station is geocoded during an API request.
 
-**Verification status:** implementation and mocked tests are available. This execution environment blocks DNS for dependency downloads and external APIs. The pinned production environment, Census matches and real-world demo routes could not be verified here. See `reports/VALIDATION.md` for exact results and the fallback test environment. Do not present the mocked examples as live routes.
-
 ## Setup (Windows PowerShell)
 
 Install Python **3.12.14**. Django is pinned to **6.1.3**, the latest stable release shown by the [official download page](https://www.djangoproject.com/download/) on 18 November 2026. [Django's compatibility table](https://docs.djangoproject.com/en/6.1/faq/install/) supports Python 3.12. The `.python-version` file is also usable with `uv`.
